@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GG112</title>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet"> 
+ <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/landingcss.css')}}"> 
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<section class='section1' id='launch' >
+  <div  class='sec1c'>
+   <ul data-aos="zoom-in" >
+  <li><a href="#launch">Launch</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#algo">Algo</a></li>
+  <li><a href="#team">Team</a></li>
+</ul>
+    <h1  data-aos="fade-right" style="font-family: 'Roboto',sans-serif;color:white;font-size: 90px;padding:100px 0 50px 50px;">Unleash the power of <br> Machine Learning</h1>
+    <p data-aos="fade-up" style="font-family: 'Roboto',sans-serif; font-size: 20px; color:white;padding-left:50px;padding-bottom: 50px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <a href='/exe'><button data-aos="fade-up" >Give a Try</button></a>
+  </div>
+</section>
+<section class='section2' id='about'>
+  <div data-aos="fade-up" class='sec2c'>
+    <h1 style="font-family: 'Roboto',sans-serif;color:black;font-size: 80px;text-align: center;padding:40px;">About</h1>
+    <div class="sec2ci" style="display: flex;flex-direction: row;justify-content: space-around;">
+      <img src="{{url_for('static',filename='images/about.svg')}}" width=600px height=450px style="padding:10px;margin-right: 30px;">
+      <p style="font-size: 30px;letter-spacing: 2px;line-height:50px;font-family: 'Roboto',sans-serif; display: flex; flex-direction: column;justify-content: center;margin:60px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,hggvgfc hjnbn jhncf hgtj kuyjbhf fgxdfac hgnbhfjhbmn jhgmnbhgf</p>
+
+    </div>
+<hr style="width:100%;color:#e8dfdf">
+
+  </div>
+</section>
+
+<section class='section3' id='algo'>
+  <div data-aos="fade-up" class='sec3c'>
+    <h1 style="font-family: 'Roboto',sans-serif;color:black;font-size: 80px;text-align: center;padding:40px;">Algo</h1>
+    <div class="sec2ci" style="display: flex;flex-direction: row;justify-content: space-around;">
+      <p style="font-size: 30px;letter-spacing: 2px;line-height:50px;font-family: 'Roboto',sans-serif; display: flex; flex-direction: column;justify-content: center;margin:60px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,hggvgfc hjnbn jhncf hgtj kuyjbhf fgxdfac hgnbhfjhbmn jhgmnbhgf</p>
+      <img src="{{url_for('static',filename='images/algo.svg')}}" width=600px height=450px style="padding:10px;margin-left: 30px;">
+      
+
+    </div>
+    <hr style="width:100%;color:#e8dfdf">
+  </div>
+</section>
+
+
+<section class='section4' id='team'>
+  <div data-aos="fade-right" class='sec4c'>
+    <h1 style="font-family: 'Roboto',sans-serif;color:black;font-size: 80px;text-align: center;padding:40px;">Team</h1>
+    <div class="sec2ci" style="display: flex;flex-direction: row;justify-content: space-around;">
+      <img src="{{url_for('static',filename='images/team.svg')}}" width=600px height=450px style="padding:10px;margin-right: 30px;">
+      <p style="font-size: 30px;letter-spacing: 2px;line-height:50px;font-family: 'Roboto',sans-serif; display: flex; flex-direction: column;justify-content: center;margin:60px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,hggvgfc hjnbn jhncf hgtj kuyjbhf fgxdfac hgnbhfjhbmn jhgmnbhgf</p>
+
+    </div>
+
+
+  </div>
+</section>
+
+<footer style="background-color: black;">
+  <p style="padding: 20px; color:white;text-align: center;font-size: 20px; font-family: 'Roboto',sans-serif;">Created with <i class="fa fa-heart" style="font-size:20px;color:red"></i> by ntw</p>
+</footer>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:1500,
+    });
+  </script>
+</body>
+</html>
