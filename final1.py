@@ -83,7 +83,7 @@ def execute(var1,var2):
         zone="Your Zone is ORANGE. Please leave your house only in case of an emergency."
     else:
         zone="Your Zone is GREEN. You are free to go out but be careful."
-    '''print("The Entered Coordinate is in color Blue")
-    print("The given Coordinate is in the given zone:",zone)'''
+    print("The Entered Coordinate is in color Blue")
+    
     return zone
 
